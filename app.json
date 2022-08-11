@@ -3,7 +3,7 @@
   "description": "تنصيب سورس ريـك ثـون الاصلي معرف قناتنا @RICKTHON",
   "logo": "https://telegra.ph/file/2c53dff6153ed4a1812a7.jpg",
   "keywords": [    "plugin",    "modular",    "productivity"  ],
-  "repository": "https://github.com/rickthon1/rickthon1",
+  "repository": "https://github.com/rickthon1/rickthons",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -38,7 +38,7 @@
     },
     "UPSTREAM_REPO": {
       "description": "لاتـغيره! ",
-      "value": "https://github.com/rickthon1/sbb_b",
+      "value": "https://github.com/rickthon1/rickthons",
       "required": false
     }
   },
