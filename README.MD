@@ -13,3 +13,4 @@ https://t.me/rickthon
 its simple source based on catuserbot but in arabic language !
 
 wale userbot 𝘀𝗼𝘂𝗿𝗰𝗲 RICKTHON
+                                                                   and thanks to telethon arab source
