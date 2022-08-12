@@ -1,44 +1,66 @@
 {
-  "name": "ريـك ثـون يوزر بوت",
-  "description": "تنصيب سورس ريـك ثـون الاصلي معرف قناتنا @RICKTHON",
+  "name": "ريـك ثـون ",
+  "description": "اللهم صلِ على محمد وآل محمد",
   "logo": "https://telegra.ph/file/2c53dff6153ed4a1812a7.jpg",
-  "keywords": [    "plugin",    "modular",    "productivity"  ],
-  "repository": "https://github.com/rickthon1/rickthons",
+  "keywords": [
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/rickthon1/rickthons/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
     "ALIVE_NAME": {
-      "description": "ضع اسمك الذي في تليجرام",
+      "description": "هنا ضع اسم التلجرام الخاص بك",
       "value": ""
     },
     "APP_ID": {
-      "description": "ضع الايبي ايدي هنا",
+      "description": "هنا ضع الاب ايدي الخاص بك يتكون من 8 ارقام", 
       "value": ""
     },
     "API_HASH": {
-      "description": "ضع الايبي هاش هنا",
+      "description": "هنا ضع الايبي هاش الخاص بك",
       "value": ""
     },
+    "ENV": {
+      "description": "لا تغير هذه القيمه",
+      "value": "ANYTHING"
+    },
+    "COMMAND_HAND_LER": {
+      "description": "لا تغير هذه القيمه",
+      "value": "."
+    },
     "STRING_SESSION": {
-      "description": "ضع كود تيرمكس هنا",
+      "description": "هنا ضع  كود تيرمكس الخاص بك",
       "value": ""
     },
     "TG_BOT_USERNAME": {
-      "description": " ضع معرف البوت هنا",
+      "description": "هنا ضع معرف بوتك بدون @",
       "value": ""
     },
     "TG_BOT_TOKEN": {
-      "description": "ضع توكن البوت هنا",
+      "description": "هنا ضع توكن بوتك الذي صنعته",
       "value": ""
     },
+    "HEROKU_API_KEY": {
+      "description": "هنا ضع الايبي كي الخاص بحساب هيروكو من هذا الرابط https://dashboard.heroku.com/account",
+      "value": "",
+      "required": false
+    },
+    "HEROKU_APP_NAME": {
+      "description": "اسم التطبيق اول مربع كتبته خلي هنا نفسه وحروف صغيره",
+      "value": "",
+      "required": false
+    },
     "TZ": {
-      "description": " الوقت",
+      "description": "المنطقه الزمنيه من القارة الخاصه بك وعاصمه بلدك يجب ان يكون اول حرف كبير",
       "value": "Asia/Baghdad",
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "لاتـغيره! ",
-      "value": "https://github.com/rickthon1/rickthons",
+      "description": "رمز السورس لا تغيره ابدا",
+      "value": "rickthon",
       "required": false
     }
   },
