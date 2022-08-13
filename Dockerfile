@@ -1,7 +1,7 @@
-FROM rickthons/userbot:slim-buster
+FROM jepthon/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/rickthon1/rickthons.git /root/jmthon
+RUN git clone https://github.com/jepthon/IMI10I.git /root/jmthon
 #working directory 
 WORKDIR /root/jepthon
 
