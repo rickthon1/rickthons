@@ -67,7 +67,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="rickthon.zip"
+    zippath="jepthon.zip"
     echo "جاري تنزيل اكواد السورس "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " تفريغ البيانات "
@@ -85,7 +85,7 @@ _set_bot () {
     echo "   ツ جار بدء ريـك ثون ツ    "
     echo "
     "
-    python3 -m rickthon
+    python3 -m jepthon
 }
 
 _set_bot
