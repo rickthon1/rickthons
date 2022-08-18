@@ -43,7 +43,7 @@ _run_python_code() {
 _run_catpack_git() {
     $(_run_python_code 'from git import Repo
 import sys
-OFFICIAL_UPSTREAM_REPO = "https://github.com/rickthon1/rickthons"
+OFFICIAL_UPSTREAM_REPO = "https://github.com/rick1128/rickthon91"
 ACTIVE_BRANCH_NAME = "master"
 repo = Repo.init()
 origin = repo.create_remote("temponame", OFFICIAL_UPSTREAM_REPO)
@@ -67,7 +67,7 @@ repo.heads[ACTIVE_BRANCH_NAME].checkout(True) ')
 
 _set_bot () {
     local zippath
-    zippath="jepthon.zip"
+    zippath="rickthon.zip"
     echo "جاري تنزيل اكواد السورس "
     wget -q $(_get_ziplink) -O "$zippath"
     echo " تفريغ البيانات "
@@ -85,7 +85,7 @@ _set_bot () {
     echo "   ツ جار بدء ريـك ثون ツ    "
     echo "
     "
-    python3 -m jepthon
+    python3 -m rickthon
 }
 
 _set_bot
