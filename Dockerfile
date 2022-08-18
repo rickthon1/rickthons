@@ -1,7 +1,7 @@
 FROM rickthon/userbot:slim-buster
 
 #clonning repo 
-RUN git clone https://github.com/rick1128/rickthon91 /root/jmthon
+RUN git clone https://github.com/rick1128/rickthon91 /root/
 #working directory 
 WORKDIR /root/rickthon
 
