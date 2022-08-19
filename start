@@ -85,7 +85,7 @@ _set_bot () {
     echo "   ツ جار بدء ريـك ثون ツ    "
     echo "
     "
-    python3 -m rickthon
+    python3 -m
 }
 
 _set_bot
